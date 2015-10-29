@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace SecretSantaCSharp
 {
-    class Generator
+    public class Generator
     {
+        public Generator()
+        {
+
+        }
+
+        public Assignment[] createAssignmentsForPeople(Person[] people)
+        {
+            return null;  //for now, ignore return value
+        }
     }
 }

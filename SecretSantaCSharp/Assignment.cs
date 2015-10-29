@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SecretSantaCSharp
 {
-    class Assignment
+    public class Assignment
     {
+        public Person giver;
+        public Person recipient;
     }
 }
